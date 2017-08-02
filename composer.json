@@ -1,0 +1,23 @@
+{
+    "name": "pandeptwidyaop/laravel-helper",
+    "description": "Helper for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pande Putu Widya Oktapratama",
+            "email": "widya.oktapratama@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "intervention/image": "^2.3",
+        "laravel/framework": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helper\\": "src/"
+        }
+}
+}
