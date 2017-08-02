@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Storage;
 class Upload
 {
     public static function image($file , $folder , $name = null , $width = 500 , $height = 500){
+        $name = $name == null ? $file->hashName() : $name.'.'.$file->getClientOriginalExtension();
 
     }
 
