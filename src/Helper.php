@@ -12,8 +12,6 @@ namespace Helper;
 class Helper
 {
 
-    public static function upload($url = ''){
 
-    }
 
 }
